@@ -1,6 +1,7 @@
-Playing video on flutter app on android using better_player is causing this error
 
-Non-fatal Exception: io.flutter.plugins.firebase.crashlytics.FlutterError: PlatformException(error, MediaSource.Factory#setDrmSessionManagerProvider no longer handles null by instantiating a new DefaultDrmSessionManagerProvider. Explicitly construct and pass an instance in order to retain the old behavior., null, java.lang.NullPointerException: MediaSource.Factory#setDrmSessionManagerProvider no longer handles null by instantiating a new DefaultDrmSessionManagerProvider. Explicitly construct and pass an instance in order to retain the old behavior.
+# Playing video on flutter app on android using better_player is causing this error
+
+	   Non-fatal Exception: 	io.flutter.plugins.firebase.crashlytics.FlutterError: PlatformException(error, MediaSource.Factory#setDrmSessionManagerProvider no longer handles null by instantiating a new DefaultDrmSessionManagerProvider. Explicitly construct and pass an instance in order to retain the old behavior., null, java.lang.NullPointerException: MediaSource.Factory#setDrmSessionManagerProvider no longer handles null by instantiating a new DefaultDrmSessionManagerProvider.    		Explicitly construct and pass an instance in order to retain the old behavior.
 
 It was working previously but now it's failing due to exoPlayer. Any idea how to fix this?
 
